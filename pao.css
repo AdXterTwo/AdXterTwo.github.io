@@ -1,0 +1,77 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 50px;
+}
+#frasecompleta{
+    position: relative;
+    transform: translate(10%,0%);
+
+}
+button{
+    border-radius: 10px;
+}
+
+body{
+    margin:0%;
+}
+#frase-container{
+    display: inline-block;
+}
+#pinguino-container{
+position: absolute;
+
+}
+#frase-padre{
+    display: inline-block;
+}
+
+#frase5{
+    position: relative;
+    transform: translate(120%,0%);
+}
+
+#pinguino{
+    position: relative;
+    transform: translate(-50%,100%);
+    left: 100%;
+    animation-duration: 1s;
+    animation-name: entrada;
+    
+
+}
+
+@keyframes entrada{
+
+    0%{
+    position: relative;
+    transform: translate(-140%,100%);
+    left: 100%;
+    }
+
+    
+
+    to{
+    position: relative;
+    transform: translate(-50%,100%);
+    left: 100%;
+
+    }
+}
+
+#corazon1{
+    transform: translate(-1290%,-90%);
+}
+#si{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+#no{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+#botones{
+    transform: translate(30%,-90%);
+}
